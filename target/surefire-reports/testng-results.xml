@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-03T14:17:19 NPT" name="Attendance Test Suite" finished-at="2025-07-03T14:17:29 NPT" duration-ms="10262">
+    <groups>
+    </groups>
+    <test started-at="2025-07-03T14:17:19 NPT" name="Attendance Tests" finished-at="2025-07-03T14:17:25 NPT" duration-ms="6183">
+      <class name="tests.CheckAttendanceTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CheckAttendanceTest@37afeb11]" started-at="2025-07-03T14:17:19 NPT" name="setup" finished-at="2025-07-03T14:17:21 NPT" duration-ms="1646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:1, instance:tests.CheckAttendanceTest@37afeb11]" started-at="2025-07-03T14:17:21 NPT" name="loginTest" finished-at="2025-07-03T14:17:22 NPT" duration-ms="967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="checkAttendance()[pri:2, instance:tests.CheckAttendanceTest@37afeb11]" started-at="2025-07-03T14:17:22 NPT" name="checkAttendance" finished-at="2025-07-03T14:17:24 NPT" duration-ms="2697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAttendance -->
+        <test-method signature="filterAttendance()[pri:3, instance:tests.CheckAttendanceTest@37afeb11]" started-at="2025-07-03T14:17:24 NPT" name="filterAttendance" finished-at="2025-07-03T14:17:25 NPT" duration-ms="608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterAttendance -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckAttendanceTest@37afeb11]" started-at="2025-07-03T14:17:25 NPT" name="tearDown" finished-at="2025-07-03T14:17:25 NPT" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CheckAttendanceTest -->
+    </test> <!-- Attendance Tests -->
+    <test started-at="2025-07-03T14:17:25 NPT" name="Login Tests" finished-at="2025-07-03T14:17:27 NPT" duration-ms="2222">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@6cf0e0ba]" started-at="2025-07-03T14:17:25 NPT" name="setUp" finished-at="2025-07-03T14:17:26 NPT" duration-ms="719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:0, instance:tests.LoginTest@6cf0e0ba]" started-at="2025-07-03T14:17:26 NPT" name="loginTest" finished-at="2025-07-03T14:17:27 NPT" duration-ms="1331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@6cf0e0ba]" started-at="2025-07-03T14:17:27 NPT" name="tearDown" finished-at="2025-07-03T14:17:27 NPT" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Login Tests -->
+    <test started-at="2025-07-03T14:17:27 NPT" name="Base Tests" finished-at="2025-07-03T14:17:29 NPT" duration-ms="1839">
+      <class name="tests.BaseTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.BaseTest@42a48628]" started-at="2025-07-03T14:17:27 NPT" name="setUp" finished-at="2025-07-03T14:17:28 NPT" duration-ms="789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:0, instance:tests.BaseTest@42a48628]" started-at="2025-07-03T14:17:28 NPT" name="loginTest" finished-at="2025-07-03T14:17:29 NPT" duration-ms="891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BaseTest@42a48628]" started-at="2025-07-03T14:17:29 NPT" name="tearDown" finished-at="2025-07-03T14:17:29 NPT" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.BaseTest -->
+    </test> <!-- Base Tests -->
+  </suite> <!-- Attendance Test Suite -->
+</testng-results>
