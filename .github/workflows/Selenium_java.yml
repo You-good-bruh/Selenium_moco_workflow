@@ -25,10 +25,24 @@ jobs:
           export TZ=Asia/Kathmandu
           date
 
-      - name: Build and run tests (ignore failures)
+      - name: Build and run tests (show summary)
         env:
           TZ: Asia/Kathmandu
-        run: mvn -B package -Dmaven.test.failure.ignore=true
+        run: |
+          mvn -B package -Dmaven.test.failure.ignore=true
+
+          echo "=============================="
+          echo "       TEST SUMMARY"
+          echo "=============================="
+
+          if ls target/surefire-reports/TEST-*.xml 1> /dev/null 2>&1; then
+            for file in target/surefire-reports/TEST-*.xml; do
+              echo "--- $file ---"
+              grep -E 'testsuite' "$file" | sed 's/.*tests="\([^"]*\)".*failures="\([^"]*\)".*errors="\([^"]*\)".*/Tests: \1 | Failures: \2 | Errors: \3/'
+            done
+          else
+            echo "No test reports found!"
+          fi
 
       - name: Archive Surefire Reports
         if: always()
