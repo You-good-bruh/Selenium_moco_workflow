@@ -9,7 +9,7 @@
     <version>1.0</version>
 
     <dependencies>
-        <!-- Selenium check -->
+        <!-- Selenium check depenedency -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
